@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.apple-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 40px;
+  width: 100%;
+  background-color: #1d1d1fcc;
+  background-color: rgba(29, 29, 29, 0.8);
+  backdrop-filter: blur(10px);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  color: #cccccc;
+  font-size: 20px;
+  transition: 0.3;
+}
+.icon i:hover {
+  color: #ffffff;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.menu a {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 11.5px;
+  letter-spacing: -0.022em;
+  transition: color 0.3s ease;
+  font-style: normal;
+}
+.menu a:hover {
+  color: #ffffff !important;
+}
+.search-icon i {
+  font-size: 15px;
+  color: white;
+}
+.cart {
+  font-size: 15px;
+  color: #cccccc;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+body {
+  font-family:
+    "SF pro text", "SF pro icons", "Helvetica neue", "Helvetica", "Arial",
+    sans-serif;
+  text-rendering: optimizeLegibility;
+}
+.search-icon i:hover {
+  color: #ffffff;
+}
+.search-icon i {
+  color: #cccccc;
+}
+.cart i:hover {
+  color: #ffffff;
+}
