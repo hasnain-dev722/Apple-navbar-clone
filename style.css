@@ -77,5 +77,37 @@ body {
 .cart i:hover {
   color: #ffffff;
 }
-/*  currently working on javascript */
-/* busy day but still manage to work  */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: #cccccc;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+}
+.menu-toggle:hover {
+  color: #ffffff;
+}
+.menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(29, 29, 29, 0.95);
+  padding: 20px 0;
+  gap: 20px;
+  z-index: 999;
+}
+.menu.active {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
