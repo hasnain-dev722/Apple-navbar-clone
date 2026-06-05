@@ -16,9 +16,10 @@
 }
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly !important;
   align-items: center;
   gap: 30px;
+  padding: 0 20px;
 }
 .icon {
   display: flex;
