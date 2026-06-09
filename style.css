@@ -8,11 +8,12 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  height: 40px;
+  height: 44px;
   width: 100%;
-  background-color: #1d1d1fcc;
+  /* background-color: #1d1d1fcc; */
   background-color: rgba(29, 29, 29, 0.8);
-  backdrop-filter: blur(10px);
+  background-color: #000000;
+  backdrop-filter:blur(10px);
 }
 .navbar {
   display: flex;
