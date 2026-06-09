@@ -11,7 +11,7 @@
   height: 44px;
   width: 100%;
   /* background-color: #1d1d1fcc; */
-  background-color: rgba(29, 29, 29, 0.8);
+  /* background-color: rgba(29, 29, 29, 0.8); */
   background-color: #1d1d1fcc;
   backdrop-filter: blur(10px);
 }
